@@ -1,0 +1,42 @@
+@media screen and (max-width :700px) {
+    header{
+        background-image: unset;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav .fa-solid{
+        display: block; font-size: 25px;
+    }
+
+    .main-nav  {
+        background-color: darkmagenta;
+        position: fixed;  top: 0;
+        width: 150px; height: 100vh;
+        z-index: 100; padding-top: 50px;
+        right: -200px; transition: 1s;
+    }
+
+    .main-nav li {
+        display: block; margin: 25px;
+    }
+    .main-nav .fa-solid {
+        position: absolute; left: 25px; top: 10px; cursor: pointer;
+    }
+
+
+    .about-left{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .about-right{
+        flex-basis: 100%;
+    }
+    
+      .contact-left , .contact-right{
+        flex-basis: 100%;
+    }
+    
+} /* @media */
